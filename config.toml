@@ -1,0 +1,311 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Jesus Garcia Ramirez"
+        tagline = "Machine Learning Engineer"
+        avatar = "linkedinprofilePic.jpeg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Leuven, Belgium"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+34 665 444 632"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "jgarciaramirezai@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "jesusgarciaramirez.github.io"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Machine Learning Algorithms"
+        [[params.skills.list.items]]
+        details = "CNNs"
+        [[params.skills.list.items]]
+        details = "Time Series Analysis"
+        [[params.skills.list.items]]
+        details = "Research"
+        [[params.skills.list.items]]
+        details = "Data Visualization"
+        [[params.skills.list.items]]
+        details = "MLOps"
+
+        [[params.skills.list]]
+        title = "Tools"
+        [[params.skills.list.items]]
+        details = "Python (Pytorch, Scikit-Learn, SciPy, Pandas)"
+        [[params.skills.list.items]]
+        details = "Microsoft Office"
+        [[params.skills.list.items]]
+        details = "Slack"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Knowledge sharing"
+        [[params.skills.list.items]]
+        details = "Curiosity"
+        [[params.skills.list.items]]
+        details = "Time management"
+
+        [[params.skills.list]]
+        title = "Certificates"
+        [[params.skills.list.items]]
+        details = "Introduction to Machine Learning in production"
+        
+    
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "PhD in Neuroscience"
+        university = "KU Leuven" 
+        dates = "2022 - Present"
+        [[params.education.list]]
+        degree = "MSc in Artificial Intelligence"
+        university = "KU Leuven"
+        dates = "2019-2020"
+        [[params.education.list]]
+        degree = "BSc in Industrial Engineering"
+        university = "University of Seville"
+        dates = "2015-2019"
+        
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Proficient"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Reading"
+        [[params.interests.list]]
+        name = "Runing"
+        [[params.interests.list]]
+        name = "Cinema"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text  = "Proactive machine learning engineer with 3+ years of specialized experience in creating and implementing effective ML solutions with a proven track record of excellent communication and teamwork demonstrated through successful collaboration within interdisciplinary teams of researchers, engineers and non technical stakeholders. Confident in the ability to excel in fast-paced environments while supporting smart business decisions"
+        
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "PhD Researcher"
+        dates = "2022 - Present"
+        company = "KU Leuven"
+        [[params.experience.list.items]]
+        details = "Developed an accurate (80% explained variance) CNN-based model for predicting neuron responses to images, bridging the gap between computational and biological vision"
+        [[params.experience.list.items]]
+        details = "Optimized Receptive Field estimation by designing a novel Gaussian approximation, reducing fitting parameters by thousands"
+        [[params.experience.list.items]]
+        details = "Implemented a closed-loop pipeline leveraging CNN encoding models, successfully identifying optimal stimuli for recorded neurons within a high-pressure, one-day experiment"
+        [[params.experience.list.items]]
+        details = "Created an end-to-end interactive visualization to enhance model interpretability and facilitate communication with non-technical stakeholders"
+
+        [[params.experience.list]]
+        title = "Research Engineer"
+        dates = "2021-2022"
+        company = "KU Leuven"
+        [[params.experience.list.items]]
+        details = "Engineered a highly-accurate (92% success rate) and fast (microsecond inference) Brain-Machine Interface system using a non-linear extension of Kalman filter, enabling real-time control for individuals with reduced mobility"
+        [[params.experience.list.items]]
+        details = "Developed an innovative online retraining procedure to reduce the amount of data required resulting in a 90% data utilization reduction, paving the way for broader accessibility"
+        [[params.experience.list.items]]
+        details = "Led a cross-functional team of researchers, engineersm and non-technical stakeholders to deliver the solution 6 months early, exceeding expectations"
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Efficient analysis of eye tracking data via Deep Learning"
+        dates = "2020"
+        [[params.projects.list.items]]
+        details = "Developed an automatic labelling tool to streamline the analysis of mobile eye-tracking recordings from an art exhibition"
+        [[params.projects.list.items]]
+        details = "Finetuned a video classification model (SlowFast) using curated 10k sample dataset, reducing manual workload on 80% with 90% accuracy"
+        [[params.projects.list.items]]
+        details = "Adapted Resnet to handle multidimensional time-series data for behaviour prediction, achieving 60% automation with 80% accuracy"
+        
+        
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Speaker at Society for Neurosciences"
+        dates = "Nov 2023"
+        company = "Washington, USA"
+        [[params.information.list.items]]
+        details = "Presented poster: Single neuron signatures of spatial attention in the human lateral occipital complex"
+
+        [[params.information.list]]
+        title = "Speaker at Neural Control of Movement"
+        dates = "Apr 2023"
+        company = "Victoria, Canada"
+        [[params.information.list.items]]
+        details = "Presented poster: Comparing reach direction decoding in macaque PMv, PMd and M1"
+
+        [[params.information.list]]
+        title = "Speaker at Society for Neurosciences"
+        dates = "Nov 2022"
+        company = "San Diego, USA"
+        [[params.information.list.items]]
+        details = "Presented poster: Single unit correlates of visual reasoning in the human lateral occipital complex"
+
+        [[params.information.list]]
+        title = "Speaker at FENS"
+        dates = "Jul 2022"
+        company = "Paris, France"
+        [[params.information.list.items]]
+        details = "Presented poster: Object decoding with spatial attention in the human lateral occipital complex"
+
+        [[params.information.list]]
+        title = "Speaker at Society for Neurosciences"
+        dates = "Nov 2021"
+        company = "Chicago, USA"
+        [[params.information.list.items]]
+        details = "Presented poster: Decoding reaching direction from macaque dorsal and ventral premotor and primary motor cortex"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/jesusgarciaramirez"
+        title = "jesusgarciaramirez"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/jesusgarciaramirez"
+        title = "jesusgarciaramirez"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/jg_ramirez19"
+        title = "@jg_ramirez19"
+
+
+
+
+
