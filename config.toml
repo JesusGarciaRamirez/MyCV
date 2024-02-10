@@ -12,8 +12,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "Jesus Garcia Ramirez"
+    description = "Jesus Garcia Ramirez - Resume"
 
 
     primaryColor = "#54B689"
@@ -26,6 +26,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Jesus Garcia Ramirez"
         tagline = "Machine Learning Engineer"
+        avatar = "linkedinprofilePic.jpeg"
  
 
 
