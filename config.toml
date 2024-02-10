@@ -26,7 +26,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Jesus Garcia Ramirez"
         tagline = "Machine Learning Engineer"
-        avatar = "profilepic.jpeg"
 
 
 
